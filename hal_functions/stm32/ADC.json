@@ -1,0 +1,10 @@
+{
+    "ADC_Enable(ADC_HandleTypeDef* hadc)": "/**\n  * @：ADC使能\n  * @：ADC_Enable(&hadc1)\n  */",
+    "HAL_ADC_Start(ADC_HandleTypeDef* hadc)": "/**\n  * @：ADC开启转换\n  * @：HAL_ADC_Start(&hadc1)\n  */",
+    "HAL_ADC_Stop(ADC_HandleTypeDef* hadc)": "/**\n  * @：ADC关闭转换\n  * @：HAL_ADC_Stop(&hadc1)\n  */",
+    "HAL_ADC_Start_IT(ADC_HandleTypeDef* hadc)": "/**\n  * @：带中断的ADC转换开启\n  * @：HAL_ADC_Start_IT(&hadc1)\n  */",
+    "HAL_ADC_Stop_IT(ADC_HandleTypeDef* hadc)": "/**\n  * @：带中断的ADC转换停止\n  * @：HAL_ADC_Stop_IT(&hadc1)\n  */",
+    "HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length)": "/**\n  * @：DMA方式ADC开启\n  * @：HAL_ADC_Start_DMA(&hadc1, Data, 5)\n  * @：参数：句柄，数据存储数组/指针，长度\n  */",
+    "HAL_ADC_Stop_DMA(ADC_HandleTypeDef* hadc)": "/**\n  * @：DMA方式ADC关闭\n  * @：HAL_ADC_Stop_DMA(&hadc1)\n  * @：参数：句柄\n  */",
+    "HAL_ADC_GetValue(ADC_HandleTypeDef* hadc)": "/**\n  * @：获取ADC转换值\n  * @：HAL_ADC_GetValue(&hadc1)\n  */"
+}

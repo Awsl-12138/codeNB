@@ -1,0 +1,13 @@
+{
+    "HAL_TIM_PWM_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef* sConfig, uint32_t Channel)": "/**\n  * @：配置PWM通道\n  * @：参数：htim：定时器句柄，sConfig：输出比较初始化结构体，Channel：通道号(1-4)\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_PWM_Init(TIM_HandleTypeDef *htim)": "/**\n  * @：PWM初始化\n  * @：HAL_TIM_PWM_Init(&htim12)\n  * @：参数：句柄\n  * @：返回值：HAL_StatusTypeDef（HAL状态，错误，ok，超时）\n  */",
+    "HAL_TIM_PWM_DeInit(TIM_HandleTypeDef *htim)": "/**\n  * @：取消初始化PWM\n  * @：HAL_TIM_PWM_DeInit(&htim12)\n  * @：参数：htim：TIM handle\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_PWM_Start(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：启动PWM信号\n  * @：HAL_TIM_PWM_Start(&htim13, TIM_CHANNEL_1)\n  * @：参数：htim：TIM handle，Channel：要用的通道（1--4，可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_PWM_Stop(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：关闭PWM信号\n  * @：HAL_TIM_PWM_Stop(&htim13, TIM_CHANNEL_1)\n  * @：参数：与开启PWM参数一致（htim：TIM handle，Channel：通道号1--4）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_PWM_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：中断模式下启动PWM信号\n  * @：参数：htim：TIM handle，Channel：要开启的通道（可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_PWM_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：中断模式下停止PWM信号\n  * @：参数：htim：TIM handle，Channel：要关闭的通道（可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_PWM_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length)": "/**\n  * @：DMA模式下启动PWM信号\n  * @：参数：htim：TIM handle，Channel：要开启的通道（可选TIM_CHANNEL_1/2/3/4），pData：缓冲区，Length：数据长度\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_PWM_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：DMA模式下停止PWM信号\n  * @：参数：htim：TIM handle，Channel：要关闭的通道（可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */",
+    "__HAL_TIM_SET_AUTORELOAD(__HANDLE__, __AUTORELOAD__)": "/**\n  * @：重装ARR寄存器，修改重装值（计数值）\n  * @：__HAL_TIM_SET_AUTORELOAD(&htim1, 1000)\n  */",
+    "__HAL_TIM_SET_COMPARE(__HANDLE__, __CHANNEL__, __COMPARE__)": "/**\n  * @：重装CCR寄存器，修改比较值(占空比)\n  * @：__HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 500) （占空比为50%）\n  */"
+}

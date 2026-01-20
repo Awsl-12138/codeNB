@@ -1,0 +1,21 @@
+{
+    "HAL_SPI_Init(SPI_HandleTypeDef *hspi)": "/**\n  * @：初始化SPI\n  * @：参数：hspi：SPI句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_DeInit(SPI_HandleTypeDef *hspi)": "/**\n  * @：取消初始化SPI\n  * @：参数：hspi：SPI句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout)": "/**\n  * @：阻塞模式发送数据\n  * @：参数：hspi：&hspi1，pData：需要发送的数据的指针，Size：传输数据的大小，Timeout：Timeout duration\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_Receive(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout)": "/**\n  * @：阻塞模式接收数据\n  * @：参数：hspi：&hspi1，pData：存放接收数据的指针，Size：传输数据的大小，Timeout：Timeout duration\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_TransmitReceive(SPI_HandleTypeDef *hspi, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size, uint32_t Timeout)": "/**\n  * @：阻塞模式发送接收一体\n  * @：参数：hspi：&hspi1，pTxData：指向发送的缓冲区的指针，pRxData：指向接收的缓冲区的指针，Size：发送和接收的数据量，Timeout：Timeout duration\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_Transmit_IT(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size)": "/**\n  * @：中断模式发送数据\n  * @：参数：hspi：SPI句柄，pData：需要发送的数据的指针，Size：传输数据的大小\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_Receive_IT(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size)": "/**\n  * @：中断模式接收数据\n  * @：参数：hspi：SPI句柄，pData：存放接收数据的指针，Size：传输数据的大小\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_TransmitReceive_IT(SPI_HandleTypeDef *hspi, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size)": "/**\n  * @：中断模式发送接收一体\n  * @：参数：hspi：SPI句柄，pTxData：指向发送的缓冲区的指针，pRxData：指向接收的缓冲区的指针，Size：发送和接收的数据量\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_Transmit_DMA(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size)": "/**\n  * @：DMA模式发送数据\n  * @：参数：hspi：SPI句柄，pData：需要发送的数据的指针，Size：传输数据的大小\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_Receive_DMA(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size)": "/**\n  * @：DMA模式接收数据\n  * @：参数：hspi：SPI句柄，pData：存放接收数据的指针，Size：传输数据的大小\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_TransmitReceive_DMA(SPI_HandleTypeDef *hspi, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size)": "/**\n  * @：DMA模式发送接收一体\n  * @：参数：hspi：SPI句柄，pTxData：指向发送的缓冲区的指针，pRxData：指向接收的缓冲区的指针，Size：发送和接收的数据量\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_Abort(SPI_HandleTypeDef *hspi)": "/**\n  * @：终止SPI传输\n  * @：参数：hspi：SPI句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_DMAPause(SPI_HandleTypeDef *hspi)": "/**\n  * @：DMA模式暂停SPI传输\n  * @：参数：hspi：SPI句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_DMAResume(SPI_HandleTypeDef *hspi)": "/**\n  * @：DMA模式恢复SPI传输\n  * @：参数：hspi：SPI句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_DMAStop(SPI_HandleTypeDef *hspi)": "/**\n  * @：DMA模式停止SPI传输\n  * @：参数：hspi：SPI句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_SPI_IRQHandler(SPI_HandleTypeDef *hspi)": "/**\n  * @：SPI中断服务函数\n  * @：参数：hspi：SPI句柄\n  * @：返回值：None\n  */",
+    "HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi)": "/**\n  * @：SPI发送完成回调函数\n  * @：参数：hspi：SPI句柄\n  * @：返回值：None\n  */",
+    "HAL_SPI_RxCpltCallback(SPI_HandleTypeDef *hspi)": "/**\n  * @：SPI接收完成回调函数\n  * @：参数：hspi：SPI句柄\n  * @：返回值：None\n  */",
+    "HAL_SPI_GetState(SPI_HandleTypeDef *hspi)": "/**\n  * @：获取SPI状态\n  * @：参数：hspi：SPI句柄\n  * @：返回值：HAL_SPI_StateTypeDef\n  */"
+}

@@ -1,0 +1,8 @@
+{
+    "HAL_IWDG_Init(IWDG_HandleTypeDef *hiwdg)": "/**\n  * @：初始化独立看门狗(IWDG)\n  * @：参数：hiwdg：IWDG句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_IWDG_Refresh(IWDG_HandleTypeDef *hiwdg)": "/**\n  * @：刷新独立看门狗(IWDG)\n  * @：参数：hiwdg：IWDG句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_WWDG_Init(WWDG_HandleTypeDef *hwwdg)": "/**\n  * @：初始化窗口看门狗(WWDG)\n  * @：参数：hwwdg：WWDG句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_WWDG_MspInit(WWDG_HandleTypeDef *hwwdg)": "/**\n  * @：窗口看门狗(WWDG)底层硬件初始化\n  * @：参数：hwwdg：WWDG句柄\n  * @：返回值：None\n  */",
+    "HAL_WWDG_Refresh(WWDG_HandleTypeDef *hwwdg)": "/**\n  * @：刷新窗口看门狗(WWDG)\n  * @：参数：hwwdg：WWDG句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_WWDG_IRQHandler(WWDG_HandleTypeDef *hwwdg)": "/**\n  * @：窗口看门狗(WWDG)中断服务函数\n  * @：参数：hwwdg：WWDG句柄\n  * @：返回值：None\n  */"
+}

@@ -1,0 +1,9 @@
+{
+    "HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode)": "/**\n  * @：初始化定时器单脉冲功能\n  * @：参数：htim：TIM One Pulse handle，OnePulseMode：单脉冲模式\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OnePulse_DeInit(TIM_HandleTypeDef *htim)": "/**\n  * @：取消初始化定时器单脉冲功能\n  * @：参数：htim：TIM One Pulse handle\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OnePulse_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel)": "/**\n  * @：启动定时器单脉冲功能\n  * @：参数：htim：TIM One Pulse handle，OutputChannel：要启用的TIM通道（2选1，支持单脉冲的通道少，可选TIM_CHANNEL_1/2）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OnePulse_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel)": "/**\n  * @：停止定时器单脉冲功能\n  * @：参数：与启动函数一致（htim：TIM One Pulse handle，OutputChannel：要停用的TIM通道，可选TIM_CHANNEL_1/2）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OnePulse_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel)": "/**\n  * @：中断模式下启动定时器单脉冲功能\n  * @：参数：htim：TIM One Pulse handle，OutputChannel：要启用的TIM通道（可选TIM_CHANNEL_1/2）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OnePulse_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel)": "/**\n  * @：中断模式下停止定时器单脉冲功能\n  * @：参数：htim：TIM One Pulse handle，OutputChannel：要停用的TIM通道（可选TIM_CHANNEL_1/2）\n  * @：返回值：HAL status\n  */",
+    "备注": "/**\n  * @：定时器单脉冲功能不支持DMA模式\n  */"
+}

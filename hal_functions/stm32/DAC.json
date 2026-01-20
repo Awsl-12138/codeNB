@@ -1,0 +1,15 @@
+{
+    "HAL_DAC_Init(DAC_HandleTypeDef* hdac)": "/**\n  * @：DAC初始化\n  * @：参数：hdac：DAC句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_DAC_DeInit(DAC_HandleTypeDef* hdac)": "/**\n  * @：DAC反初始化\n  * @：参数：hdac：DAC句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_DAC_Start(DAC_HandleTypeDef* hdac, uint32_t Channel)": "/**\n  * @：开启DAC转换通道\n  * @：HAL_DAC_Start(&hdac1, DAC_CHANNEL_1)\n  * @：参数：hdac：句柄，Channel：2选一（DAC_CHANNEL_1/DAC_CHANNEL_2）\n  * @：返回值：HAL status\n  */",
+    "HAL_DAC_Stop(DAC_HandleTypeDef* hdac, uint32_t Channel)": "/**\n  * @：停止DAC转换通道\n  * @：参数：hdac：句柄，Channel：2选一（DAC_CHANNEL_1/DAC_CHANNEL_2）\n  * @：返回值：HAL status\n  */",
+    "HAL_DAC_Start_DMA(DAC_HandleTypeDef* hdac, uint32_t Channel, uint32_t* pData, uint32_t Length, uint32_t Alignment)": "/**\n  * @：DMA模式下开启DAC转换\n  * @：参数：hdac：句柄（哪个DAC），Channel：哪个通道，pData：存放数据的指针/数组，Length：存放的数据长度，Alignment：字节对齐方式（8位有对齐，12位左，12位右）\n  * @：返回值：HAL status\n  */",
+    "HAL_DAC_Stop_DMA(DAC_HandleTypeDef* hdac, uint32_t Channel)": "/**\n  * @：DMA模式下停止DAC转换\n  * @：参数：hdac：句柄，Channel：哪个通道\n  * @：返回值：HAL status\n  */",
+    "HAL_DAC_GetValue(DAC_HandleTypeDef* hdac, uint32_t Channel)": "/**\n  * @：获取DAC输出值\n  * @：参数：hdac：句柄，Channel：通道号（DAC_CHANNEL_1/DAC_CHANNEL_2）\n  * @：返回值：uint32_t（DAC输出值）\n  */",
+    "HAL_DAC_ConvCpltCallbackCh1(DAC_HandleTypeDef* hdac)": "/**\n  * @：DAC通道1转换完成回调函数\n  * @：参数：hdac：DAC句柄\n  * @：返回值：None\n  */",
+    "HAL_DAC_ConvHalfCpltCallbackCh1(DAC_HandleTypeDef* hdac)": "/**\n  * @：DAC通道1DMA半传输完成回调函数\n  * @：参数：hdac：DAC句柄\n  * @：返回值：None\n  */",
+    "HAL_DAC_ErrorCallbackCh1(DAC_HandleTypeDef *hdac)": "/**\n  * @：DAC通道1错误回调函数\n  * @：参数：hdac：DAC句柄\n  * @：返回值：None\n  */",
+    "HAL_DAC_ConfigChannel(DAC_HandleTypeDef* hdac, DAC_ChannelConfTypeDef* sConfig, uint32_t Channel)": "/**\n  * @：DAC通道配置函数\n  * @：参数：hdac：句柄，sConfig：通道配置结构体，Channel：通道号（DAC_CHANNEL_1/DAC_CHANNEL_2）\n  * @：返回值：HAL status\n  */",
+    "HAL_DAC_SetValue(DAC_HandleTypeDef* hdac, uint32_t Channel, uint32_t Alignment, uint32_t Data)": "/**\n  * @：为指定DAC通道设定指定值\n  * @：参数：hdac：句柄，Channel：通道号，Alignment：字节对齐方式，Data：要设置的数值\n  * @：返回值：HAL status\n  */",
+    "HAL_DAC_GetState(DAC_HandleTypeDef* hdac)": "/**\n  * @：获取DAC状态\n  * @：参数：hdac：DAC句柄\n  * @：返回值：HAL_DAC_StateTypeDef（DAC状态类型）\n  */"
+}

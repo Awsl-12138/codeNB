@@ -1,0 +1,7 @@
+{
+    "HAL_TIM_Base_GetState(TIM_HandleTypeDef *htim)": "/**\n  * @：获取定时器基础功能状态\n  * @：参数：htim：定时器句柄\n  * @：返回值：HAL_TIM_StateTypeDef\n  */",
+    "HAL_TIM_OC_GetState(TIM_HandleTypeDef *htim)": "/**\n  * @：获取定时器输出比较功能状态\n  * @：参数：htim：定时器句柄\n  * @：返回值：HAL_TIM_StateTypeDef\n  */",
+    "HAL_TIM_PWM_GetState(TIM_HandleTypeDef *htim)": "/**\n  * @：获取定时器PWM功能状态\n  * @：参数：htim：定时器句柄\n  * @：返回值：HAL_TIM_StateTypeDef\n  */",
+    "HAL_TIM_IC_GetState(TIM_HandleTypeDef *htim)": "/**\n  * @：获取定时器输入捕获功能状态\n  * @：参数：htim：定时器句柄\n  * @：返回值：HAL_TIM_StateTypeDef\n  */",
+    "HAL_TIM_OnePulse_GetState(TIM_HandleTypeDef *htim)": "/**\n  * @：获取定时器单脉冲功能状态\n  * @：参数：htim：定时器句柄\n  * @：返回值：HAL_TIM_StateTypeDef\n  */"
+}

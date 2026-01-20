@@ -1,0 +1,13 @@
+{
+    "HAL_DMA_Init(DMA_HandleTypeDef *hdma)": "/**\n  * @：初始化指定DMA\n  * @：HAL_DMA_Init(&hdma1)\n  * @：参数：hdma：hdma1\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_DeInit(DMA_HandleTypeDef *hdma)": "/**\n  * @：取消初始化指定DMA\n  * @：参数：hdma：DMA句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_Start(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength)": "/**\n  * @：启动DMA传输\n  * @：参数：hdma：hdma(x)，SrcAddress：自己创建的存储的地址空间，DstAddress：目标的地址，DataLength：传输的长度\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength)": "/**\n  * @：中断模式下启动DMA传输\n  * @：参数：hdma：hdma(x)，SrcAddress：自己创建的存储的地址空间，DstAddress：目标的地址，DataLength：传输的长度\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_Abort(DMA_HandleTypeDef *hdma)": "/**\n  * @：终止DMA传输\n  * @：参数：hdma：DMA句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_Abort_IT(DMA_HandleTypeDef *hdma)": "/**\n  * @：中断模式下终止DMA传输\n  * @：参数：hdma：DMA句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32_t CompleteLevel, uint32_t Timeout)": "/**\n  * @：轮询等待DMA传输结束\n  * @：参数：hdma：DMA句柄，CompleteLevel：完成级别，Timeout：超时时间\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_IRQHandler(DMA_HandleTypeDef *hdma)": "/**\n  * @：DMA中断服务函数\n  * @：参数：hdma：DMA句柄\n  * @：返回值：None\n  */",
+    "HAL_DMA_RegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID, void (* pCallback)( DMA_HandleTypeDef * _hdma))": "/**\n  * @：注册DMA回调函数\n  * @：参数：hdma：DMA句柄，CallbackID：回调ID，pCallback：回调函数指针\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_UnRegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID)": "/**\n  * @：取消注册DMA回调函数\n  * @：参数：hdma：DMA句柄，CallbackID：回调ID\n  * @：返回值：HAL status\n  */",
+    "HAL_DMA_GetState(DMA_HandleTypeDef *hdma)": "/**\n  * @：获取DMA状态\n  * @：参数：hdma：DMA句柄\n  * @：返回值：HAL_DMA_StateTypeDef\n  */"
+}

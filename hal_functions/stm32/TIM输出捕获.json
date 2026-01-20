@@ -1,0 +1,10 @@
+{
+    "HAL_TIM_OC_Init(TIM_HandleTypeDef* htim)": "/**\n  * @：初始化定时器输出比较\n  * @：HAL_TIM_OC_Init(&htim1)\n  * @：参数：htim：&htim1\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OC_DeInit(TIM_HandleTypeDef *htim)": "/**\n  * @：取消初始化定时器输出比较\n  * @：HAL_TIM_OC_DeInit(&htim1)\n  * @：参数：htim：&htim1\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OC_Start(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：启动定时器输出比较\n  * @：参数：htim：句柄，Channel：通道（1-4都可选，可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：停止定时器输出比较\n  * @：参数：htim：句柄，Channel：通道（1-4都可选，可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：中断模式下启动定时器输出比较\n  * @：参数：htim：句柄，Channel：通道（1-4都可选，可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：中断模式下停止定时器输出比较\n  * @：参数：htim：句柄，Channel：通道（1-4都可选，可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length)": "/**\n  * @：DMA模式下启动定时器输出比较\n  * @：参数：htim：句柄，Channel：通道（1-4都可选，可选TIM_CHANNEL_1/2/3/4），pData：原地址，Length：数据长度\n  * @：返回值：HAL status\n  */",
+    "HAL_TIM_OC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel)": "/**\n  * @：DMA模式下停止定时器输出比较\n  * @：参数：htim：句柄，Channel：通道（1-4都可选，可选TIM_CHANNEL_1/2/3/4）\n  * @：返回值：HAL status\n  */"
+}

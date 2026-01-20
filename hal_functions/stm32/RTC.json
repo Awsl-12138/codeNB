@@ -1,0 +1,10 @@
+{
+    "HAL_RTC_Init(RTC_HandleTypeDef *hrtc)": "/**\n  * @：初始化RTC\n  * @：参数：hrtc：RTC句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_RTC_DeInit(RTC_HandleTypeDef *hrtc)": "/**\n  * @：取消初始化RTC\n  * @：参数：hrtc：RTC句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format)": "/**\n  * @：设置RTC时间(时分秒)\n  * @：参数：hrtc：句柄，sTime：要设置的时间，Format：格式（1、RTC_FORMAT_BIN；2、RTC_FORMAT_BCD）\n  * @：返回值：HAL status\n  */",
+    "HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format)": "/**\n  * @：获取RTC时间(时分秒)\n  * @：参数：hrtc：句柄，sTime：存放获取时间的结构体，Format：格式（1、RTC_FORMAT_BIN；2、RTC_FORMAT_BCD）\n  * @：返回值：HAL status\n  */",
+    "HAL_RTC_SetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32_t Format)": "/**\n  * @：设置RTC日期(年月日)\n  * @：参数：hrtc：句柄，sDate：要设置的日期，Format：格式（1、RTC_FORMAT_BIN；2、RTC_FORMAT_BCD）\n  * @：返回值：HAL status\n  */",
+    "HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32_t Format)": "/**\n  * @：获取RTC日期(年月日)\n  * @：参数：hrtc：句柄，sDate：存放获取日期的结构体，Format：格式（1、RTC_FORMAT_BIN；2、RTC_FORMAT_BCD）\n  * @：返回值：HAL status\n  */",
+    "HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32_t Format)": "/**\n  * @：设置RTC闹钟\n  * @：参数：hrtc：句柄，sAlarm：要设置的闹钟参数，Format：格式（1、RTC_FORMAT_BIN；2、RTC_FORMAT_BCD）\n  * @：返回值：HAL status\n  */",
+    "HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32_t Format)": "/**\n  * @：中断模式下设置RTC闹钟\n  * @：参数：hrtc：句柄，sAlarm：要设置的闹钟参数，Format：格式（1、RTC_FORMAT_BIN；2、RTC_FORMAT_BCD）\n  * @：返回值：HAL status\n  */"
+}

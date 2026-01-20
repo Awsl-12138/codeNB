@@ -1,0 +1,10 @@
+{
+    "HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init)": "/**\n  * @：GPIO初始化\n  * @：HAL_GPIO_Init(GPIOA, GPIO_PIN_9)\n  */",
+    "HAL_GPIO_DeInit(GPIO_TypeDef *GPIOx, uint32_t GPIO_Pin)": "/**\n  * @：GPIO反初始化\n  * @：HAL_GPIO_DeInit(GPIOA, GPIO_PIN_9)\n  */",
+    "HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)": "/**\n  * @：GPIO引脚读取\n  * @：HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9)\n  * @：GPIO_PinState 返回值类型/0或1\n  * typedef enum\n\t{\n \t \tGPIO_PIN_RESET = 0U,\n \t \tGPIO_PIN_SET\n\t}GPIO_PinState;\n  */",
+    "HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState)": "/**\n  * @：GPIO写状态\n  * @：HAL_GPIO_WritePin(GPIOF, GPIO_PIN_9,GPIO_PIN_RESET)\n  * @:第二个参数：GPIO_PIN_RESET/GPIO_PIN_SET\n  */",
+    "HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)": "/**\n  * @：GPIO电平反转\n  * @：HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9)\n  */",
+    "HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)": "/**\n  * @：GPIO电平状态锁定\n  * @：HAL_GPIO_LockPin(GPIOF,GPIO_PIN_9)\n  * @:typedef enum \n\t{\n\t\t  HAL_OK       = 0x00U,\n\t\t  HAL_ERROR    = 0x01U,\n\t\t  HAL_BUSY     = 0x02U,\n\t\t  HAL_TIMEOUT  = 0x03U\n\t} HAL_StatusTypeDef\n  */",
+    "HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)": "/**\n  * @：GPIO外部中断服务函数\n  * @：HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_9)\n  */",
+    "HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)": "/**\n  * @：GPIO中断回调函数，用于写逻辑\n  * @：HAL_GPIO_EXTI_Callback(GPIO_PIN_9)\n  * \t{\n  * \t\tif(GPIO_Pin==GPIO_PIN_9) /判断哪个引脚/\n  * \t}\n  */"
+}

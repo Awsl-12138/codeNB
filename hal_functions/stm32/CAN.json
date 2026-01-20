@@ -1,0 +1,16 @@
+{
+    "HAL_CAN_Init(CAN_HandleTypeDef* hcan)": "/**\n  * @：初始化CAN\n  * @：参数：hcan：指向CAN_HandleTypeDef结构的指针，该结构包含指定CAN的配置信息\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_ConfigFilter(CAN_HandleTypeDef* hcan, CAN_FilterConfTypeDef* sFilterConfig)": "/**\n  * @：配置CAN接收过滤器\n  * @：参数：hcan：指向CAN_HandleTypeDef结构的指针（包含指定CAN的配置信息），sFilterConfig：指向CAN_FilterConfTypeDef结构的指针（包含过滤器的配置信息）\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_DeInit(CAN_HandleTypeDef* hcan)": "/**\n  * @：取消初始化CAN，恢复默认值\n  * @：参数：hcan：指向CAN_HandleTypeDef结构的指针，该结构包含指定CAN的配置信息\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_Transmit(CAN_HandleTypeDef* hcan, uint32_t Timeout)": "/**\n  * @：发送CAN消息\n  * @：参数：hcan：句柄，Timeout：Timeout value\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_Receive(CAN_HandleTypeDef* hcan, uint8_t FIFONumber, uint32_t Timeout)": "/**\n  * @：接收CAN消息\n  * @：参数：hcan：句柄，FIFONumber：指定接收FIFO编号，Timeout：Timeout value\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_Transmit_IT(CAN_HandleTypeDef* hcan)": "/**\n  * @：中断模式下发送CAN消息\n  * @：参数：hcan：句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_Receive_IT(CAN_HandleTypeDef* hcan, uint8_t FIFONumber)": "/**\n  * @：中断模式下接收CAN消息\n  * @：参数：hcan：句柄，FIFONumber：指定接收FIFO编号\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_Sleep(CAN_HandleTypeDef* hcan)": "/**\n  * @：使CAN进入睡眠模式/低功耗模式\n  * @：参数：hcan：句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_WakeUp(CAN_HandleTypeDef* hcan)": "/**\n  * @：将CAN从睡眠模式中唤醒\n  * @：参数：hcan：句柄\n  * @：返回值：HAL status\n  */",
+    "HAL_CAN_IRQHandler(CAN_HandleTypeDef* hcan)": "/**\n  * @：CAN中断请求（中断服务函数）\n  * @：参数：hcan：句柄\n  * @：返回值：None\n  */",
+    "HAL_CAN_TxCpltCallback(CAN_HandleTypeDef* hcan)": "/**\n  * @：CAN发送回调函数——自定义写逻辑\n  * @：参数：hcan：句柄\n  * @：返回值：None\n  */",
+    "HAL_CAN_RxCpltCallback(CAN_HandleTypeDef* hcan)": "/**\n  * @：CAN接收回调函数——自定义写逻辑\n  * @：参数：hcan：句柄\n  * @：返回值：None\n  */",
+    "HAL_CAN_ErrorCallback(CAN_HandleTypeDef *hcan)": "/**\n  * @：CAN错误回调函数\n  * @：参数：hcan：句柄\n  * @：返回值：None\n  */",
+    "HAL_CAN_GetState(CAN_HandleTypeDef* hcan)": "/**\n  * @：获取CAN状态\n  * @：参数：hcan：句柄\n  * @：返回值：HAL_CAN_StateTypeDef\n  */"
+}

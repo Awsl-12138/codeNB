@@ -1,0 +1,7 @@
+{
+    "HAL_FLASH_Lock(void)": "/**\n  * @：锁定FLASH控制寄存器访问\n  * @：返回值：HAL Status\n  */",
+    "HAL_FLASH_Unlock(void)": "/**\n  * @：解锁FLASH控制寄存器访问\n  * @：返回值：HAL Status\n  */",
+    "HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data)": "/**\n  * @：在指定地址写入数据\n  * @：注意：在解锁之后调用，如果锁定首先要解锁；同时请求擦除和写入，先执行擦除；新编程之前应该擦除\n  * @：参数：TypeProgram：写入方式，Address：要写入的地址，Data：要写入的数据\n  * @：返回值：HAL Status\n  */",
+    "HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data)": "/**\n  * @：中断模式下在指定地址写入数据\n  * @：注意：在解锁之后调用，如果锁定首先要解锁；同时请求擦除和写入，先执行擦除；新编程之前应该擦除\n  * @：参数：TypeProgram：写入方式，Address：要写入的地址，Data：要写入的数据\n  * @：返回值：HAL Status\n  */",
+    "HAL_FLASH_IRQHandler(void)": "/**\n  * @：FLASH中断服务入口函数\n  * @：返回值：None\n  */"
+}
